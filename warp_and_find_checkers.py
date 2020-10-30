@@ -75,4 +75,4 @@ def process_images(src_dir, dst_dir):
 
 
 if __name__ == "__main__":
-    process_images('bgsamples', 'bgsamples_out')
+    fire.Fire(process_images)
